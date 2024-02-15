@@ -21,3 +21,10 @@ function nombre_f() {
     console.log("se ejecuta???????");
 
 }
+
+function makoto_bb() {
+
+    let free = { nombre: 'Makoto', edad: 20 }
+    free.color = 'verde';
+    document.getElementById('makoto_info').innerHTML = 'Makoto fave colour: ' + free.color;
+}
